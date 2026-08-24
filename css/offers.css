@@ -1,6 +1,6 @@
 .card {
   color: var(--text-secondary-color);
-  background-color: greenyellow;
+  background-color: transparent;
   width: 312px;
   height: 288px;
   padding: 24px 16px;
