@@ -1,6 +1,6 @@
 .card {
   color: var(--text-secondary-color);
-  background-color: brown;
+  background-color: greenyellow;
   width: 312px;
   height: 288px;
   padding: 24px 16px;
@@ -15,6 +15,8 @@
   position: static;
   font-size: 20px;
   font-weight: var(--text-weight);
+  padding: 0;
+  margin-bottom: 24px;
 }
 
 .card header h3 {
