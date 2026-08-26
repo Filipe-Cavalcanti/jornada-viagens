@@ -48,6 +48,7 @@ h1 {
   font-weight: var(--title-weight);
   color: var(--primary-color);
 }
+
 .section-title h2 {
   font-size: 28px;
   font-weight: var(--title-weight);
