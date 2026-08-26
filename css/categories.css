@@ -1,0 +1,47 @@
+.categorias {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  gap: 24px;
+}
+
+.categorias-card {
+  background-color: var(--background-secondary-color);
+  width: 312px;
+  height: 220px;
+  border-radius: 8px;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 24px 16px;
+  text-align: center;
+}
+
+.categories-icon-nacional {
+  width: 70px;
+  height: 80px;
+  padding: none;
+}
+.categories-icon-internacional {
+  width: 80px;
+  height: 80px;
+  padding: none;
+}
+
+.categories-icon-transfer {
+  width: 80px;
+  height: 65px;
+  padding: none;
+  margin: 5px 0;
+}
+
+.categories-icon-seguro-viagem {
+  width: 80px;
+  height: 80px;
+  padding: none;
+}
+.categorias-card h3 {
+  font-size: 28px;
+  color: var(--text-primary-color);
+  text-decoration: none;
+  margin-top: 24px;
+}
