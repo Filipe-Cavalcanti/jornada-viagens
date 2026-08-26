@@ -1,47 +1,61 @@
-.categorias {
+.categories .section-title {
+  width: 312px;
+  margin: 0 auto;
+}
+
+.categories-card {
+  display: flex;
   flex-direction: column;
   align-items: center;
-  display: flex;
   gap: 24px;
+  margin-top: 64px;
 }
 
-.categorias-card {
-  background-color: var(--background-secondary-color);
+.categories-card .card {
   width: 312px;
   height: 220px;
-  border-radius: 8px;
-  text-decoration: none;
-  box-sizing: border-box;
-  padding: 24px 16px;
+  background-color: var(--background-secondary-color);
   text-align: center;
-}
-
-.categories-icon-nacional {
-  width: 70px;
-  height: 80px;
-  padding: none;
-}
-.categories-icon-internacional {
-  width: 80px;
-  height: 80px;
-  padding: none;
-}
-
-.categories-icon-transfer {
-  width: 80px;
-  height: 65px;
-  padding: none;
-  margin: 5px 0;
-}
-
-.categories-icon-seguro-viagem {
-  width: 80px;
-  height: 80px;
-  padding: none;
-}
-.categorias-card h3 {
-  font-size: 28px;
-  color: var(--text-primary-color);
+  border-radius: 8px;
+  padding: 24px;
+  box-sizing: border-box;
   text-decoration: none;
-  margin-top: 24px;
+  color: var(--text-primary-color);
+}
+
+.categories-card .card h3 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.categories-card .card.single-line {
+  padding-top: 50px;
+}
+
+.categories-card .card.single-line.transfer img {
+  margin: 10px 0 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .categories .section-title {
+    width: 100%;
+  }
+
+  .categories-card {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .categories-card .card {
+    width: 430px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .categories-card .card {
+    width: 280px;
+  }
 }
