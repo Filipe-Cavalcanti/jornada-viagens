@@ -90,3 +90,29 @@ h4 {
     text-align: left;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .destinations .destination-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+  }
+
+  .destinations .item {
+    width: 588px;
+  }
+
+  .item .img-item-tokyo {
+    width: 588px;
+    height: 452px;
+  }
+
+  .item .img-item-osaka {
+    width: 588px;
+    height: 452px;
+  }
+  .destinations p {
+    width: 588px;
+    margin: 0 60px;
+  }
+}
