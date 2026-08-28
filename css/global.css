@@ -71,7 +71,7 @@ h1 {
   font-weight: var(--title-weight);
   font-size: 20px;
   background-color: var(--secondary-color);
-  border-radius: 16px;
+  border-radius: 8px;
   display: inline-block;
   text-decoration: none;
   line-height: 64px;
