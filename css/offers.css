@@ -20,20 +20,10 @@
   text-align: center;
 }
 
-.offer-cards .card header {
-  display: block;
-  position: static;
-  background-color: transparent;
-  font-size: 20px;
-  font-weight: var(--text-weight);
-  padding: 0;
-  margin-bottom: 24px;
-}
-
 .offer-cards .card header h3 {
   font-size: 40px;
   font-weight: var(--title-weight);
-  margin: 8px 0 0;
+  margin: 8px 0 24px;
 }
 
 .offer-cards .card header span {
