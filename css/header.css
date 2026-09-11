@@ -77,7 +77,7 @@ nav {
 
 @media screen and (min-width: 1024px) {
   .main-header {
-    padding: 38px 120px;
+    padding: 38px;
     align-items: center;
   }
 
