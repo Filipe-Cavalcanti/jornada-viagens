@@ -1,0 +1,21 @@
+.bottom-hero {
+  background: url(../img/city-footer-mobile.png) no-repeat;
+  height: 400px;
+  width: 100%;
+  margin: 0;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .bottom-hero {
+    background: url(../img/city-footer-tablet.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .bottom-hero {
+    background: url(../img/city-footer-desktop.png) no-repeat;
+    background-size: cover;
+  }
+}
