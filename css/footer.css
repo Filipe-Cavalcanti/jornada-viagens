@@ -4,6 +4,12 @@
   align-items: center;
 }
 
+.footer-logo-info {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
 .footer-logo img {
   width: 162px;
   height: 40px;
@@ -22,6 +28,7 @@
 
 .social-icons {
   display: flex;
+  justify-content: space-around;
   align-items: center;
   gap: 8px;
   margin: 16px;
@@ -41,5 +48,11 @@
 @media screen and (min-width: 1440px) {
   .main-footer {
     flex-direction: row;
+    justify-content: space-between;
+    margin: auto 120px;
+  }
+
+  .footer-logo-info {
+    align-items: baseline;
   }
 }
