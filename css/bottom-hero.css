@@ -1,4 +1,4 @@
-.hero-footer {
+.bottom-hero {
   background: url(../img/city-footer-mobile.png) no-repeat;
   height: 400px;
   width: 100%;
@@ -7,14 +7,14 @@
 }
 
 @media screen and (min-width: 768px) {
-  .hero-footer {
+  .bottom-hero {
     background: url(../img/city-footer-tablet.png) no-repeat;
     background-size: cover;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .hero-footer {
+  .bottom-hero {
     background: url(../img/city-footer-desktop.png) no-repeat;
     background-size: cover;
   }
