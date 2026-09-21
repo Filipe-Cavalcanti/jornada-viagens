@@ -6,9 +6,21 @@
   background-size: cover;
 }
 
+.bottom-hero-pack {
+  background: url(../img/hero-footer-pack-mobile.png) no-repeat;
+  height: 400px;
+  width: 100%;
+  margin: 0;
+  background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
   .bottom-hero {
     background: url(../img/city-footer-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .bottom-hero-pack {
+    background: url(../img/hero-footer-pack-tablet.png) no-repeat;
     background-size: cover;
   }
 }
@@ -16,6 +28,10 @@
 @media screen and (min-width: 1440px) {
   .bottom-hero {
     background: url(../img/city-footer-desktop.png) no-repeat;
+    background-size: cover;
+  }
+  .bottom-hero-pack {
+    background: url(../img/hero-footer-pack-desktop.png) no-repeat;
     background-size: cover;
   }
 }
