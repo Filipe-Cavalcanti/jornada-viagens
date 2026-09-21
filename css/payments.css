@@ -7,6 +7,11 @@
   width: 100%;
 }
 
+.extra-title {
+  font-size: 40px;
+  margin: 32px 0 0 0;
+}
+
 .payments .image-gallery .image.first {
   background: url(../img/img-bag-mobile.png) no-repeat;
   background-size: cover;
@@ -20,7 +25,25 @@
   background-size: cover;
 }
 
+.payments .image-gallery .image.fourth {
+  background: url(../img/img-pagoda-mobile.png) no-repeat;
+  background-size: cover;
+}
+.payments .image-gallery .image.fifth {
+  background: url(../img/img-tower-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .image-gallery .image.sixth {
+  background: url(../img/img-parasol-mobile.png) no-repeat;
+  background-size: cover;
+}
+
 .payments .image-gallery .image.thirdy.colspan-2 {
+  grid-column: span 2;
+}
+
+.payments .image-gallery .image.sixth.colspan-2 {
   grid-column: span 2;
 }
 
