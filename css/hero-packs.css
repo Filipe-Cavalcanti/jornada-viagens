@@ -26,3 +26,27 @@
   line-height: 1.5;
   font-size: 20px;
 }
+
+@media screen and (min-width: 768px) {
+  .hero-pack-img {
+    background: url(../img/hero-pack-tablet.png) no-repeat;
+    background-size: cover;
+    height: 620px;
+  }
+
+  .hero-pack h2 {
+    padding: 38px 120px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-pack-img {
+    background: url(../img/hero-pack-desktop.png) no-repeat;
+    background-size: cover;
+    height: 620px;
+  }
+
+  .hero-pack h2 {
+    padding: 38px 160px;
+  }
+}
