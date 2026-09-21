@@ -60,6 +60,18 @@
     background: url(../img/img-tablet-people.png) no-repeat;
     background-size: cover;
   }
+  .payments .image-gallery .image.fourth {
+    background: url(../img/img-pagoda-tablet-desktop.png) no-repeat;
+    background-size: cover;
+  }
+  .payments .image-gallery .image.fifth {
+    background: url(../img/img-tower-tablet-desktop.png) no-repeat;
+    background-size: cover;
+  }
+  .payments .image-gallery .image.sixth {
+    background: url(../img/img-parasol-tablet-desktop.png) no-repeat;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 1440px) {
